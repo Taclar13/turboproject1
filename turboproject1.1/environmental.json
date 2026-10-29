@@ -1,0 +1,11 @@
+{
+  "base_config": "baseline.json",
+  "reference_condition": {
+    "temperature_K": 288.15,
+    "pressure_Pa": 101325.0,
+    "mass_flow_kg_s": 10.0
+  },
+  "temperature_sweep": {"lower": 273.15, "upper": 323.15, "count": 21},
+  "pressure_sweep": {"lower": 70000.0, "upper": 105000.0, "count": 15},
+  "pressure_ratio_sweep": {"lower": 2.0, "upper": 40.0, "count": 401}
+}

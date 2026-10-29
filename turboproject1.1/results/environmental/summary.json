@@ -1,0 +1,60 @@
+{
+  "base_cycle_inputs": {
+    "T1": 300.0,
+    "Pamb": 101325.0,
+    "TIT": 1400.0,
+    "eta_c": 0.85,
+    "eta_t": 0.88,
+    "eta_b": 0.99,
+    "eta_m": 0.99,
+    "pi_in": 0.99,
+    "pi_b": 0.96,
+    "pi_ex": 0.99,
+    "LHV": 50000000.0,
+    "mass_flow": 10.0
+  },
+  "reference_condition": {
+    "temperature_K": 288.15,
+    "pressure_Pa": 101325.0,
+    "mass_flow_kg_s": 10.0
+  },
+  "inlet_volume_flow_m3_s": 8.163183567727609,
+  "reference_result": {
+    "temperature_K": 288.15,
+    "pressure_Pa": 101325.0,
+    "mass_flow_kg_s": 10.0,
+    "density_kg_m3": 1.2250122659906946,
+    "valid_pressure_ratio_points": 401,
+    "eta_opt_pressure_ratio": 26.16884214557569,
+    "eta_opt_efficiency": 0.35386453960173697,
+    "eta_opt_wnet": 254557.124635274,
+    "eta_opt_power": 2545571.24635274,
+    "eta_opt_wc": 522648.4312214002,
+    "eta_opt_q_fuel": 719363.1916941148,
+    "eta_opt_T4": 720.1052373199491,
+    "eta_opt_fuel_flow": 0.14387263833882297,
+    "work_opt_pressure_ratio": 11.48151850063672,
+    "work_opt_efficiency": 0.32221564771993094,
+    "work_opt_wnet": 290104.6168743887,
+    "work_opt_power": 2901046.168743887,
+    "work_opt_wc": 343478.37810900545,
+    "work_opt_q_fuel": 900343.0433227965,
+    "work_opt_T4": 851.6681150175905,
+    "work_opt_fuel_flow": 0.18006860866455932
+  },
+  "temperature_sweep": {
+    "lower": 273.15,
+    "upper": 323.15,
+    "count": 21
+  },
+  "pressure_sweep": {
+    "lower": 70000.0,
+    "upper": 105000.0,
+    "count": 15
+  },
+  "pressure_ratio_sweep": {
+    "lower": 2.0,
+    "upper": 40.0,
+    "count": 401
+  }
+}
